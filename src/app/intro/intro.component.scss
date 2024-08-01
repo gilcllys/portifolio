@@ -1,0 +1,32 @@
+header {
+    height: 96px;
+    padding: 0 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .general-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 230px;
+
+        button.buttons-header {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            border: none;
+            background: none;
+            color: white;
+        }
+
+        button.buttons-header:hover {
+            border-bottom: 1px solid white;
+        }
+    }
+
+}
