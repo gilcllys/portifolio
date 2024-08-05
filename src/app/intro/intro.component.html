@@ -1,0 +1,32 @@
+<header>
+    <p>
+        GILCLLYS COSTA
+    </p>
+    <div class="general-buttons">
+        <button class="buttons-header" type="button">
+            {{'trabalho' | translate}}
+        </button>
+        <button class="buttons-header" type="button">
+            {{'sobre-mim' | translate}}
+        </button>
+        <button class="buttons-header" type="button">
+            {{'contato' | translate}}
+        </button>
+        <label for="idiomas">
+            <span class="material-symbols-outlined">
+                language
+            </span>
+        </label>
+        <select name="idiomas" id="idiomas" (change)="getOptionLang($event)">
+            <option value="pt" [selected]="true">
+                {{'portugues' | translate}}
+            </option>
+            <option value="en">
+                {{'ingles' | translate}}
+            </option>
+            <option value="fr">
+                {{'frances' | translate}}
+            </option>
+        </select>
+    </div>
+</header>
