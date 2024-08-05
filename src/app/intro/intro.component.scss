@@ -14,9 +14,9 @@ header {
     .general-buttons {
         display: flex;
         justify-content: space-evenly;
-        width: 230px;
+        width: 430px;
 
-        button.buttons-header {
+        .buttons-header {
             font-family: "Inter", sans-serif;
             font-optical-sizing: auto;
             border: none;
@@ -24,8 +24,14 @@ header {
             color: white;
         }
 
-        button.buttons-header:hover {
+        .buttons-header:hover {
             border-bottom: 1px solid white;
+        }
+
+        select {
+            background: none;
+            color: white;
+            border: none;
         }
     }
 
