@@ -1,11 +1,12 @@
 <div class="main-box">
     <div class="left-box">
-        <p>{{project.tag}}</p>
+        <p>{{project.tag | translate}}</p>
         <img src="../../../assets/images/no-project-image.jpg">
     </div>
     <div class="right-box">
-        <p class="title">{{project.ProjectTitle}}</p>
-        <p class="description">{{project.description}}</p>
+        <p class="title">{{project.ProjectTitle | translate}}</p>
+        <!-- Essa merda da descrição nao quer traduzirrrr ajhhh depois tenho que ver isso, agora vou dormir-->
+        <p class="descriptionProject">{{project.description | translate}}</p>
         <p class="separator">{{"project-info" | translate}}</p>
         <div class="year">
             <p>{{"year" | translate}}</p>
@@ -13,7 +14,7 @@
         </div>
         <div class="role">
             <p>{{"role" | translate}}</p>
-            <p class="content-info">{{project.role}}</p>
+            <p class="content-info">{{project.role | translate}}</p>
         </div>
         <div class="links">
             <div class="icons">

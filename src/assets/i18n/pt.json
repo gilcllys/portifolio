@@ -12,5 +12,13 @@
     "small-description-text": "Aqui estão alguns dos projetos selecionados que demonstram minha paixão pelo desenvolvimento de software.",
     "view-project": "Visualizar projeto",
     "see-on-github": "Ver no Github",
-    "project-info": "Informação do projeto"
+    "project-info": "Informação do projeto",
+    "year": "Ano",
+    "role": "Função",
+    "Personal Project": "Projeto Pessoal",
+    "Website portifolio": "Portifólio Profissional",
+    "Artificial intelligence": "Inteligência Artificial",
+    "It was my bachelor of chemical engineering final project": "Foi meu projeto de final de curso (TCC) da minha graduação de Engenharia Química",
+    "Convolutional neural network (CNN) applied to the Reynolds experiment": "Rede neural convolucional (CNN) aplicado ao experimento de Reynolds",
+    "Computer vision": "Visão computacional"
 }
