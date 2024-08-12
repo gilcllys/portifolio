@@ -13,11 +13,13 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import {
-  faStackOverflow,
   faGithub,
   faMedium,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
+import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import { BaseService } from './service/base-service.service';
+import { ProjectItemComponent } from './project/project-item/project-item.component';
 
 
 
@@ -32,7 +34,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProjectComponent,
     AboutMeComponent,
     ContactComponent,
-    MainAppComponent
+    MainAppComponent,
+    ProjectItemComponent
   ],
   imports: [
     FontAwesomeModule,
@@ -49,6 +52,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   providers: [
     provideClientHydration(),
     provideHttpClient(withFetch()),
+    BaseService
   ],
   bootstrap: [AppComponent]
 })
@@ -57,7 +61,8 @@ export class AppModule {
     library.addIcons(
       faGithub,
       faMedium,
-      faLinkedin
+      faLinkedin,
+      faUpRightFromSquare
     );
   }
 }

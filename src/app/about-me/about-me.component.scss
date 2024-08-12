@@ -2,29 +2,28 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 15px 15px 60px 15px;
+    border-bottom: 1px solid rgb(34, 34, 34);
 
     .small-info {
         width: 45%;
 
         .small-description {
+
             h1 {
-                font-family: "Bebas Neue", sans-serif;
-                font-weight: 400;
-                font-style: normal;
                 font-size: 101px;
-                height: 200px;
             }
 
             p {
-                font-family: "Manrope", sans-serif;
-                font-optical-sizing: auto;
-                font-style: normal;
+                position: relative;
+                bottom: 50px;
                 text-align: justify;
             }
         }
 
         .link-butons {
+            position: relative;
+            bottom: 30px;
             display: flex;
             justify-content: space-evenly;
             align-items: center;

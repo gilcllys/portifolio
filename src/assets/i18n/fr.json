@@ -7,5 +7,10 @@
     "frances": "Français",
     "hi-gilcllys": "Bonjour, je suis Gilcllys Costa",
     "small-intro": "Développeur full stack de Manaus et ingénieur chimique de formation, je suis passionné par l’apprentissage des nouvelles technologies et la construction de systèmes solides et conviviaux. Je recherche toujours l’excellence et l’innovation dans chaque projet. Ah, et je ne peux pas oublier de mentionner : je suis fou de x-caboquinho et tambaqui!",
-    "contact-me": "Contactez moi"
+    "contact-me": "Contactez moi",
+    "projects": "Projets",
+    "small-description-text": "Voici quelques projets sélectionnés qui démontrent ma passion pour le développement de logiciels.",
+    "view-project": "Voir le projet",
+    "see-on-github": "Voir sur le Github",
+    "project-info": "Informations de projet"
 }

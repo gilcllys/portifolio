@@ -7,5 +7,10 @@
     "frances": "French",
     "hi-gilcllys": "Hello, I am Gilcllys Costa",
     "small-intro": "Full stack developer from Manaus and chemical engineer by training, I am passionate about learning new technologies and building solid and friendly systems. I always seek excellence and innovation in each project. Ah, and I can't forget to mention: I'm crazy about x-caboquinho and tambaqui!",
-    "contact-me": "Contact me"
+    "contact-me": "Contact me",
+    "projects": "Featured projects",
+    "small-description-text": "Here are some of the selected projects that demonstrate my passion for software development.",
+    "view-project": "View project",
+    "see-on-github": "See on Github",
+    "project-info": "Project info"
 }
