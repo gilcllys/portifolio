@@ -20,6 +20,7 @@ import {
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { BaseService } from './service/base-service.service';
 import { ProjectItemComponent } from './project/project-item/project-item.component';
+import { ShortPersonalDescriptionComponent } from './short-personal-description/short-personal-description.component';
 
 
 
@@ -35,7 +36,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AboutMeComponent,
     ContactComponent,
     MainAppComponent,
-    ProjectItemComponent
+    ProjectItemComponent,
+    ShortPersonalDescriptionComponent
   ],
   imports: [
     FontAwesomeModule,

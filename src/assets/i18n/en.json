@@ -6,7 +6,7 @@
     "ingles": "English",
     "frances": "French",
     "hi-gilcllys": "Hello, I am Gilcllys Costa",
-    "small-intro": "Full stack developer from Manaus and chemical engineer by training, I am passionate about learning new technologies and building solid and friendly systems. I always seek excellence and innovation in each project. Ah, and I can't forget to mention: I'm crazy about x-caboquinho and tambaqui!",
+    "small-intro": "Software developer from Manaus and chemical engineer by training, I am passionate about learning new technologies and building solid and friendly systems. I always seek excellence and innovation in each project. Ah, and I can't forget to mention: I'm crazy about x-caboquinho and tambaqui!",
     "contact-me": "Contact me",
     "projects": "Featured projects",
     "small-description-text": "Here are some of the selected projects that demonstrate my passion for software development.",
@@ -20,5 +20,9 @@
     "Artificial intelligence": "Artificial intelligence",
     "Convolutional neural network (CNN) applied to the Reynolds experiment": "Convolutional neural network (CNN) applied to the Reynolds experiment",
     "It was my bachelor of chemical engineering final project": "It was my bachelor of chemical engineering final project",
-    "Computer vision": " Computer vision"
+    "Computer vision": " Computer vision",
+    "about-me": "About me",
+    "im-developer-fullstack": "I am a software developer based in Brazil. Has Chemistry Engineering background.",
+    "short-text-about-me": "I am a modern alchemist of code lines, residing in the heart of the Amazon, in Manaus. My journey began in Chemical Engineering, where I learned to transform elements and processes, and now I am finishing a technologist in Systems Analysis and Development, with a postgraduate degree in Software Engineering. My mission is to merge scientific precision with the art of programming, creating innovative and sustainable solutions in the world of technology.",
+    "more-about-me": "More about me"
 }

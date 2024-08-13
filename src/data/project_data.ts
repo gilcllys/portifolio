@@ -16,7 +16,7 @@ export const project_data: ProjectModel[] = [
     },
     {
         ProjectTitle: 'Convolutional neural network (CNN) applied to the Reynolds experiment',
-        description: 'It was my  bachelor of chemical engineering final project',
+        description: 'It was my bachelor of chemical engineering final project',
         year: 2024,
         role: 'Computer vision',
         tag: 'Artificial intelligence',

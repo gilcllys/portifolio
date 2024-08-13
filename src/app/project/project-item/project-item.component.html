@@ -5,8 +5,7 @@
     </div>
     <div class="right-box">
         <p class="title">{{project.ProjectTitle | translate}}</p>
-        <!-- Essa merda da descrição nao quer traduzirrrr ajhhh depois tenho que ver isso, agora vou dormir-->
-        <p class="descriptionProject">{{project.description | translate}}</p>
+        <p class="descriptionProject">{{project.description |translate}}</p>
         <p class="separator">{{"project-info" | translate}}</p>
         <div class="year">
             <p>{{"year" | translate}}</p>
@@ -19,12 +18,12 @@
         <div class="links">
             <div class="icons">
                 <a href="#">{{"view-project" | translate}}</a>
-                <fa-icon class="icon" [icon]="['fas', 'up-right-from-square']" animation="beat">
+                <fa-icon class="icon" [icon]="['fas', 'up-right-from-square']">
                 </fa-icon>
             </div>
             <div class="icons">
                 <a href="#">{{"see-on-github" | translate}}</a>
-                <fa-icon class="icon" [icon]="['fab', 'github']" animation="beat">
+                <fa-icon class="icon" [icon]="['fab', 'github']">
                 </fa-icon>
             </div>
         </div>
