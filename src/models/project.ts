@@ -1,10 +1,12 @@
+import {LinkModel} from "./links";
+
 export class ProjectModel {
     ProjectTitle: string;
     description: string;
     year: number;
     role: string;
     tag: string;
-    linkList: object;
+    linkList: LinkModel;
 
     constructor(
         ProjectTitle: string,
@@ -12,7 +14,7 @@ export class ProjectModel {
         year: number,
         role: string,
         tag: string,
-        linkList: object,
+        linkList: LinkModel,
 
     ) {
         this.ProjectTitle = ProjectTitle;

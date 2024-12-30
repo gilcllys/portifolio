@@ -21,6 +21,7 @@ import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { BaseService } from './service/base-service.service';
 import { ProjectItemComponent } from './project/project-item/project-item.component';
 import { ShortPersonalDescriptionComponent } from './short-personal-description/short-personal-description.component';
+import {NgOptimizedImage} from "@angular/common";
 
 
 
@@ -39,18 +40,19 @@ export function HttpLoaderFactory(http: HttpClient) {
     ProjectItemComponent,
     ShortPersonalDescriptionComponent
   ],
-  imports: [
-    FontAwesomeModule,
-    BrowserModule,
-    AppRoutingModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient],
-      },
-    })
-  ],
+    imports: [
+        FontAwesomeModule,
+        BrowserModule,
+        AppRoutingModule,
+        TranslateModule.forRoot({
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient],
+            },
+        }),
+        NgOptimizedImage
+    ],
   providers: [
     provideClientHydration(),
     provideHttpClient(withFetch()),

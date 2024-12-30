@@ -7,7 +7,7 @@ import { BaseService } from '../service/base-service.service';
   templateUrl: './project.component.html',
   styleUrl: './project.component.scss'
 })
-export class ProjectComponent {
+export class ProjectComponent{
   projectList: ProjectModel[] = [];
   constructor(private service: BaseService) { }
 
