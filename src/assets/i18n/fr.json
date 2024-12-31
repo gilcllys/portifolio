@@ -24,5 +24,14 @@
     "about-me": "Sur moi",
     "im-developer-fullstack": "Je suis un développeur de logiciels basé à Manaus, avec une formation en génie chimique et actuellement finissant un technologue en analyse et développement de systèmes, ainsi que des études supérieures en ingénierie logicielle.",
     "short-text-about-me": "Je suis un alchimiste moderne des lignes de code, résidant au cœur de l'Amazonie, à Manaus. Mon parcours a commencé en génie chimique, où j'ai appris à transformer des éléments et des processus, et maintenant je termine un technologue en analyse et développement de systèmes avec un diplôme d'ingénieur logiciel en cours. Ma mission est de fusionner la précision scientifique avec l'art de la programmation, en créant des solutions innovantes et durables dans le monde de la technologie.",
-    "more-about-me": "Plus sur moi"
+    "more-about-me": "Plus sur moi",
+    "lets-connect": "Lest connect",
+    "say-hello-at": "Say hello at",
+    "for-more-info": "for more info, access my",
+    "resume": "Resume",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "submit": "Submit"
+}
 }
