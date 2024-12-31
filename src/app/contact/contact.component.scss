@@ -1,0 +1,123 @@
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 80%;
+    height: 500px;
+  }
+
+  .left-box {
+    padding: 0;
+  }
+
+  .right-box,
+  .left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 71px;
+  }
+
+  .line {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    p {
+      margin-right: 10px;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 700px;
+    height: 400px;
+
+    label {
+      font-family: "Manrope", sans-serif;
+      font-size: 20px;
+      color: rgb(199, 199, 199);
+    }
+
+    input {
+      height: 51px;
+    }
+
+    textarea,
+    input {
+      background-color: rgb(26, 26, 26);
+      border-style: none;
+      border-radius: 4px;
+      color: white;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  .contact-button {
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(211, 233, 122);
+    color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(211, 233, 122);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+
+  .icon:hover {
+    background-color: rgb(211, 233, 122);
+    color: rgb(34, 34, 34);
+  }
+
+  p {
+    color: rgb(199, 199, 199);
+  }
+
+  .contact-me {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid rgb(211, 233, 122);
+  }
+
+  .contact-me:hover {
+    text-decoration: none;
+    color: rgb(211, 233, 122);
+    border-bottom: 1px solid white;
+  }
+
+}

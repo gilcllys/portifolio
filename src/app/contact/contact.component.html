@@ -1,1 +1,51 @@
-<p>contact works!</p>
+<div class="main-box">
+  <div class="content">
+    <div class="left-box">
+      <div class="info-details">
+        <h1>{{ 'lets-connect' | translate }}</h1>
+        <div class="line">
+          <p>{{ 'say-hello-at' | translate }}</p>
+          <a class="contact-me">{{ 'gilcllyscosta@gmail.com' }}</a>
+        </div>
+        <div class="line">
+          <p>{{ 'for-more-info' | translate}}</p>
+          <a class="contact-me" href="#">{{ 'resume' |translate }}</a>
+        </div>
+        <div class="icons">
+          <a href="https://github.com/gilcllys" target="_blank">
+            <fa-icon class="icon" [icon]="['fab', 'github']" size="2x">
+            </fa-icon>
+          </a>
+          <a href="https://medium.com/@gilcllyscosta" target="_blank">
+            <fa-icon class="icon" [icon]="['fab', 'medium']" size="2x"></fa-icon>
+          </a>
+          <a href="https://www.linkedin.com/in/gilcllyscosta/" target="_blank">
+            <fa-icon class="icon" [icon]="['fab', 'linkedin']" size="2x"></fa-icon>
+          </a>
+        </div>
+      </div>
+      <div class="copyrigth">
+        <p>© 2024 Gilcllys Costa</p>
+      </div>
+    </div>
+    <div class="right-box">
+      <form>
+        <div class="field">
+          <label for="name">{{ 'name' | translate }}</label>
+          <input id="name">
+        </div>
+        <div class="field">
+          <label for="email">{{ 'email' | translate }}</label>
+          <input id="email">
+        </div>
+        <div class="field">
+          <label for="subject">{{ 'subject' | translate }}</label>
+          <textarea rows="10" id="subject"></textarea>
+        </div>
+      </form>
+      <button class="contact-button" type="button">
+        {{"submit" |translate}}
+      </button>
+    </div>
+  </div>
+</div>

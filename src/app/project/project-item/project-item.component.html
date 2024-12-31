@@ -1,0 +1,41 @@
+<div class="main-box">
+  <div class="left-box">
+    <p>{{ project.tag | translate }}</p>
+    @if (project.linkList.image) {
+      <img ngSrc="{{project.linkList.image}}" alt="" height="626" width="626">
+
+    } @else {
+      <img ngSrc="../../../assets/images/no-project-image.jpg" alt="" height="626" width="626">
+    }
+
+  </div>
+  <div class="right-box">
+    <p class="title">{{ project.ProjectTitle | translate }}</p>
+    <p class="descriptionProject">{{ project.description |translate }}</p>
+    <p class="separator">{{ "project-info" | translate }}</p>
+    <div class="year">
+      <p>{{ "year" | translate }}</p>
+      <p class="content-info">{{ project.year }}</p>
+    </div>
+    <div class="role">
+      <p>{{ "role" | translate }}</p>
+      <p class="content-info">{{ project.role | translate }}</p>
+    </div>
+    <div class="links">
+      @if (project.linkList.demo) {
+        <div class="icons">
+          <a href="{{project.linkList.demo}}" target="_blank">{{ "view-project" | translate }}</a>
+          <fa-icon class="icon" [icon]="['fas', 'up-right-from-square']">
+          </fa-icon>
+        </div>
+      }
+      @if (project.linkList.repository) {
+        <div class="icons">
+          <a href="{{project.linkList.repository}}" target="_blank">{{ "see-on-github" | translate }}</a>
+          <fa-icon class="icon" [icon]="['fab', 'github']">
+          </fa-icon>
+        </div>
+      }
+    </div>
+  </div>
+</div>

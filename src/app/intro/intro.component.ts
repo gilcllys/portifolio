@@ -17,6 +17,5 @@ export class IntroComponent {
     const target = event.target as HTMLSelectElement;
     const language = target.value;
     this.setCurrentLanguage(language);
-    console.log(language);
   };
 }

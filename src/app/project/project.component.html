@@ -1,1 +1,11 @@
-<p>project works!</p>
+<div class="main-box">
+    <div class="content">
+        <div class="main-title-projects">
+            <h1>{{"projects" | translate}}</h1>
+            <p>{{"small-description-text" | translate}}</p>
+        </div>
+        <div class="projects-box" *ngFor="let  project of projectList">
+            <app-project-item [project]="project"></app-project-item>
+        </div>
+    </div>
+</div>
