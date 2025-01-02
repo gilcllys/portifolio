@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IntroComponent } from './intro/intro.component';
-import { ProjectComponent } from './project/project.component';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { ContactComponent } from './contact/contact.component';
-import { MainAppComponent } from './main-app/main-app.component';
+import { IntroComponent } from '../shared/components/intro/intro.component';
+import { ProjectComponent } from './pages/home/components/project/project.component';
+import { AboutMeComponent } from './pages/home/components/about-me/about-me.component';
+import { ContactComponent } from './pages/home/components/contact/contact.component';
+import { MainAppComponent } from './pages/home/main-app/main-app.component';
 import { HttpClient } from '@angular/common/http';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -19,8 +19,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import { BaseService } from './service/base-service.service';
-import { ProjectItemComponent } from './project/project-item/project-item.component';
-import { ShortPersonalDescriptionComponent } from './short-personal-description/short-personal-description.component';
+import { ProjectItemComponent } from './pages/home/components/project/project-item/project-item.component';
+import { ShortPersonalDescriptionComponent } from './pages/home/components/short-personal-description/short-personal-description.component';
 import {NgOptimizedImage} from "@angular/common";
 
 
