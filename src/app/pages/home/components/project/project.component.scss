@@ -1,17 +1,20 @@
+.main-box,
+.content,
+.main-title-projects{
+  display: flex;
+}
+
 .main-box {
-    display: flex;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgb(34, 34, 34);
 
     .content {
         width: 80%;
-        display: flex;
         flex-direction: column;
 
         .main-title-projects {
             width: 90%;
-            display: flex;
             flex-direction: column;
 
             h1 {
