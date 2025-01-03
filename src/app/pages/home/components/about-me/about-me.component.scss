@@ -66,3 +66,61 @@
         border-radius: 20px
     }
 }
+
+// adaptacao css responsivo
+@media only screen and (max-width: 815px) {
+  .main-box {
+    display: flex;
+    flex-direction: column;
+    width: 95% !important;
+    height: 900px;
+  }
+  .small-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% !important;
+    height: 500px;
+    .small-description {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        margin-bottom: 50px;
+        font-size: 35px !important;
+        text-align: justify;
+      }
+      p {
+        width: 100% !important;
+      }
+    }
+    .link-butons{
+      width: 90% !important;
+      a{
+        margin: 0 5px 0 5px;
+      }
+      .contact-button {
+        font-size: 10px !important;
+
+        width: 90px !important;
+        height: 35px !important;
+        border-radius: 100px;
+      }
+
+      .icon {
+        height: 45px !important;
+        width: 45px !important;
+        border-radius: 50%;
+      }
+    }
+  }
+  img {
+    width: 90% !important;
+    height: 90% !important;
+    border-radius: 20px;
+  }
+
+}
+

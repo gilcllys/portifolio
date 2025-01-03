@@ -17,7 +17,7 @@ import {
   faMedium,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
-import {faBars} from '@fortawesome/free-solid-svg-icons'
+import {faBars, faUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
 import { BaseService } from './service/base-service.service';
 import { ProjectItemComponent } from './pages/home/components/project/project-item/project-item.component';
 import { ShortPersonalDescriptionComponent } from './pages/home/components/short-personal-description/short-personal-description.component';
@@ -70,6 +70,7 @@ export class AppModule {
       faMedium,
       faLinkedin,
       faBars,
+      faUpRightFromSquare
 
     );
   }
