@@ -109,3 +109,30 @@ p{
         }
     }
 }
+
+@media only screen and (max-width: 815px) {
+  .main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 100% !important;
+  }
+  .left-box {
+    display: flex;
+    width: 100% !important;
+    height: 120% !important;
+    p, img,.image-custom{
+      position: initial !important;
+    }
+  }
+  .right-box{
+    width: 100% !important;
+    .title {
+      font-weight: bold;
+      font-size: 20px !important;
+    }
+  }
+
+}
