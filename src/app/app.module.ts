@@ -17,11 +17,12 @@ import {
   faMedium,
   faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
-import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+import {faBars} from '@fortawesome/free-solid-svg-icons'
 import { BaseService } from './service/base-service.service';
 import { ProjectItemComponent } from './pages/home/components/project/project-item/project-item.component';
 import { ShortPersonalDescriptionComponent } from './pages/home/components/short-personal-description/short-personal-description.component';
 import {NgOptimizedImage} from "@angular/common";
+import {IntroResponsiveComponent} from "../shared/components/intro/intro-responsive/intro-responsive.component";
 
 
 
@@ -38,7 +39,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     ContactComponent,
     MainAppComponent,
     ProjectItemComponent,
-    ShortPersonalDescriptionComponent
+    ShortPersonalDescriptionComponent,
+    IntroResponsiveComponent,
+
   ],
     imports: [
         FontAwesomeModule,
@@ -66,7 +69,8 @@ export class AppModule {
       faGithub,
       faMedium,
       faLinkedin,
-      faUpRightFromSquare
+      faBars,
+
     );
   }
 }

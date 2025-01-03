@@ -1,0 +1,38 @@
+<header>
+  <div class="upContainer"><p>
+    GILCLLYS COSTA
+  </p>
+    <button (click)="showButtons()">
+      <fa-icon [icon]="['fas', 'bars'] " size="xl"></fa-icon>
+    </button>
+  </div>
+  <div *ngIf="isShowing"  class="general-buttons">
+    <button class="buttons-header" type="button">
+      {{'trabalho' | translate}}
+    </button>
+    <button class="buttons-header" type="button">
+      {{'sobre-mim' | translate}}
+    </button>
+    <button class="buttons-header" type="button">
+      {{'contato' | translate}}
+    </button>
+    <div class="translate">
+      <label for="idiomas">
+                <span class="material-symbols-outlined">
+                    language
+                </span>
+    </label>
+      <select name="idiomas" id="idiomas" (change)="getOptionLang($event)">
+        <option value="pt" [selected]="true">
+          {{ 'portugues' | translate }}
+        </option>
+        <option value="en">
+          {{ 'ingles' | translate }}
+        </option>
+        <option value="fr">
+          {{ 'frances' | translate }}
+        </option>
+      </select>
+    </div>
+  </div>
+</header>
