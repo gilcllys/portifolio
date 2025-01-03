@@ -42,3 +42,26 @@
         }
     }
 }
+
+// responsividade
+
+@media only screen and (max-width: 815px) {
+  .main-box {
+    height: 100% !important;
+  }
+  .content {
+    h1{
+      text-align: center;
+    }
+    .info-details {
+      width: 100% !important;
+    }
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+    height: 100% !important;
+    width: 95% !important;
+
+
+  }
+}
