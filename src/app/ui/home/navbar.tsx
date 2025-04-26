@@ -1,10 +1,12 @@
 'use client'
-
+import { useTranslations } from 'next-intl';
 import { useState } from 'react'
 import Link from 'next/link'
+import LocaleSwitcher from './LocaleSwitcher';
 
 export default function Navbar() {
-    const [isOpen, setIsOpen] = useState(false)
+    const t = useTranslations('NavBar');
+    const [isOpen, setIsOpen] = useState(false);
 
     return (
         <nav className="bg-black text-white p-4">
@@ -14,9 +16,10 @@ export default function Navbar() {
                 </Link>
 
                 <div className="hidden md:flex space-x-6">
-                    <NavLink href="/">Trabalho</NavLink>
-                    <NavLink href="/sobre">Sobre</NavLink>
-                    <NavLink href="/contato">Contato</NavLink>
+                    <NavLink href="/">{t('work')}</NavLink>
+                    <NavLink href="/sobre">{t('about')}</NavLink>
+                    <NavLink href="/contato">{t('contact')}</NavLink>
+                    <LocaleSwitcher />
                 </div>
 
                 <button
@@ -47,6 +50,7 @@ export default function Navbar() {
                     <MobileNavLink href="/">Trabalho</MobileNavLink>
                     <MobileNavLink href="/sobre">Sobre</MobileNavLink>
                     <MobileNavLink href="/contato">Contato</MobileNavLink>
+                    <LocaleSwitcher />
                 </div>
             </div>
         </nav>

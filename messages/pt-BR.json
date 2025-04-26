@@ -1,0 +1,10 @@
+{
+    "NavBar": {
+        "work": "Trabalho",
+        "about": "Sobre mim",
+        "contact": "Contato",
+        "label": "Trocar o idioma",
+        "pt-BR": "Português",
+        "en": "Inglês"
+    }
+}
