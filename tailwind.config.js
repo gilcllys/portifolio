@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        socialmediaInner: "#D3E97A",
       },
       fontFamily: {
         body: ["Manrope", "sans-serif"],

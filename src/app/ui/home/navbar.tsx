@@ -1,12 +1,15 @@
 'use client'
 import { useTranslations } from 'next-intl';
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import LocaleSwitcher from './LocaleSwitcher';
 
 export default function Navbar() {
     const t = useTranslations('NavBar');
     const [isOpen, setIsOpen] = useState(false);
+    useEffect(() => {
+        setIsOpen(true)
+    }, [])
 
     return (
         <nav className="bg-black text-white p-4">
@@ -17,7 +20,7 @@ export default function Navbar() {
 
                 <div className="hidden md:flex space-x-6">
                     <NavLink href="/">{t('work')}</NavLink>
-                    <NavLink href="/sobre">{t('about')}</NavLink>
+                    <NavLink href="/about_me">{t('about')}</NavLink>
                     <NavLink href="/contato">{t('contact')}</NavLink>
                     <LocaleSwitcher />
                 </div>
@@ -48,7 +51,7 @@ export default function Navbar() {
             `}>
                 <div className="flex flex-col items-center justify-center">
                     <MobileNavLink href="/">Trabalho</MobileNavLink>
-                    <MobileNavLink href="/sobre">Sobre</MobileNavLink>
+                    <MobileNavLink href="/about_me">Sobre</MobileNavLink>
                     <MobileNavLink href="/contato">Contato</MobileNavLink>
                     <LocaleSwitcher />
                 </div>

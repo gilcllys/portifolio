@@ -6,5 +6,8 @@
         "label": "Trocar o idioma",
         "pt-BR": "Português",
         "en": "Inglês"
+    },
+    "AboutMe": {
+        "about": "Sobre mim"
     }
 }
